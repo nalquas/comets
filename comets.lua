@@ -1,5 +1,5 @@
 -- title:  Comets
--- author: nickifr
+-- author: Nalquas
 -- desc:   A classic arcade game inspired by Asteroids.
 -- script: lua
 -- input:  gamepad
@@ -11,7 +11,7 @@
 
 -- ============LICENSE=============
 -- Comets - An arcade game about destroying comets
--- Copyright (C) 2017  Niklas 'nickifr' Freund
+-- Copyright (C) 2017  Niklas 'Nalquas' Freund
 --
 -- This program is free software: you can redistribute it and/or modify
 -- it under the terms of the GNU General Public License as published by
@@ -264,7 +264,7 @@ function TIC()
 		print("Press A/S/Z/X to begin!", 56, 70, 7, false, 1)
 		print("Highscore: " .. highscore, 88, 61, 7, false, 1)
 		print("Copyright (C) 2017", 73, 115, 15, false, 1)
-		print("Niklas "..apostroph.."nickifr"..apostroph.." Freund", 58, 122, 15, false, 1)
+		print("Niklas "..apostroph.."Nalquas"..apostroph.." Freund", 58, 122, 15, false, 1)
 		print("GNU General Public License Version 3", 19, 129, 15, false, 1)
 		print("V"..versionNr, 2, 2, 15, false, 1)
 		
